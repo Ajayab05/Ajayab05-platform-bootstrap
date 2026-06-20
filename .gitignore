@@ -1,0 +1,83 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform Override Files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform Variables
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform Plan Files
+*.tfplan
+*.plan
+
+# Terraform CLI Config
+.terraformrc
+terraform.rc
+
+# Terraform Lock File
+# Uncomment if you do NOT want to version lock providers
+# .terraform.lock.hcl
+
+# Keep lock file for enterprise projects
+!.terraform.lock.hcl
+
+# Sensitive Files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# AWS Credentials
+.aws/
+credentials
+
+# Environment Files
+.env
+.env.*
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Temporary Files
+tmp/
+temp/
+
+# ArgoCD
+argocd-secret.yaml
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Helm
+charts/*/tmp/
+
+# Testing
+coverage/
